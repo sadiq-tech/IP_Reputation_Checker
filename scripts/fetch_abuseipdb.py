@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 # API Key of AbuseIPDB
-API_KEY = "693fcf1d104b444c14a1db9bef098e8f5aed8e9f177bb0571b88c599404b84502ac31315dfecd249"
+API_KEY = "API_KEY_FROM_AbuseIPDB"
 
 # Endpoint of AbuseIPDB for fetching IP addresses
 url = "https://api.abuseipdb.com/api/v2/blacklist"
