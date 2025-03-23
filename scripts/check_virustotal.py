@@ -3,7 +3,7 @@ import pandas as pd
 from setup_mongodb import collection
 
 # API Key of VirusTotal
-VT_API_KEY = "e2a1f08996f53006eb1fd7eda247c8fe5316266b04dbab3531a2721c301f2d77"
+VT_API_KEY = "API_KEY_FROM_VirusTotal"
 
 # VirusTotal Endpoint
 VT_URL = "https://www.virustotal.com/api/v3/ip_addresses/"
