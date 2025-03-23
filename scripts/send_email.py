@@ -20,10 +20,10 @@ html_table = df_results.to_html(index=False, border=1)
 # Email configuration
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SENDER_EMAIL = "bashasadiq563@gmail.com"
-SENDER_PASSWORD = "swcv wunw wafh rtqg"
-RECEIVER_EMAILS = ["psaiswaroop047@gmail.com"]
-CC_EMAILS = ["psai.swaroop2001@gmail.com"]
+SENDER_EMAIL = "your_email@gmail.com"
+SENDER_PASSWORD = "email_password"
+RECEIVER_EMAILS = ["xyz@gmail.com"]
+CC_EMAILS = ["pqr@gmail.com"]
 
 # Creating email message
 msg = MIMEMultipart()
@@ -40,7 +40,7 @@ msg["Subject"] = "IP Reputation Report | Optiv Solutions"
 html_body = f"""
 <html>
     <body>
-        <p>Hi Lokesh,</p>
+        <p>Hi Manager,</p>
 
         <p>I have successfully completed the <b>IP Reputation Check </b> project as per the given requirements. The project covers:</p>
 
@@ -80,7 +80,7 @@ html_body = f"""
         <p>Looking forward to your feedback.</p>
         
         <br>
-        <p>Thanks & Regards,<br>Sadiq Basha.</p>
+        <p>Thanks & Regards,<br>Your_Name.</p>
 </html>
 """
 msg.attach(MIMEText(html_body, "html"))
